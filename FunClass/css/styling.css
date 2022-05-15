@@ -1,0 +1,87 @@
+h1 {
+  color: #ffffff;
+  background-color: #93209f;
+  border-bottom: 12px dashed #d6a6e8;
+  text-align: center;
+  padding : 30px;
+  margin-top: 0;
+}
+
+section > h2{
+  text-align: center;
+  color: #93209f;
+  font-size: 32px;
+}
+
+.Photos {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  display:inline-block;
+  color: purple;
+
+}
+
+.Photos h3 {
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.Photos img{
+  width: 100px;
+  text-align: center;
+  display:inline-block;
+  border: 2px solid purple;
+
+}
+
+.centered{
+  text-align: center;
+}
+
+.crop img{
+  height: 100px;
+  width: 80px;
+  margin-left: 20px;
+}
+
+.card{
+  background-color: #6d6de4;
+  color: #ffffff;
+  border: 5px solid #5858da;
+  text-align: center;
+  display: inline-block;
+  width: 215px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #93209f;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+footer {
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  background-color: #93209f;
+  border-top: 12px dashed #d6a6e8;
+  margin-top: 109px;
+}
+
+body {
+  background-color: #d6a6e8;
+  margin: 0;
+}
+
+.no-margin {
+  margin: 0;
+}

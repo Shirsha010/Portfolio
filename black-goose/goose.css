@@ -1,0 +1,38 @@
+body {
+  background-color: #faf3e3;
+  width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+
+}
+
+header {
+  text-align: center;
+}
+
+.title  {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 5px;
+  border-bottom: 2px solid #abd0d8;
+  font-weight: bold;
+
+}
+
+h3 {
+  color: #cb7a5d;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.content {
+    font-weight: bold;
+}
+
+.space-down {
+  margin-bottom: 35px;
+}
