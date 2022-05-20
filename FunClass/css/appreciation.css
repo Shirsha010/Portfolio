@@ -1,11 +1,72 @@
 body {
   background-color: #faf3e3;
   margin:0;
-  border: 15px dashed #deade5;
+  border: 10px dashed #deade5;
+
+}
+
+.flex {
+  display: flex;
+}
+
+.po1 {
+  background-image: url(./../images/po1.webp);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+.po1:hover {
+  background-image: url(./../images/bossu1.jpg);
+}
+
+.po1 img {
+  width:100%;
+  height: 100%;
+  display: inline-block;
+}
+
+/* .po1 img:hover {
+  display: block;
+} */
+
+.po2 {
+  background-image: url(./../images/po2.webp);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+.po2:hover {
+  background-image: url(./../images/burgir.png);
+}
+
+.po3 {
+  background-image: url(./../images/po3.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+.po4 {
+  background-image: url(./../images/po4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 300px;
+}
+
+.po4:hover {
+  background-image: url(./../images/guitar.jpg);
 }
 
 header {
   background-color: #efb7df;
+ 
   color: white;
   padding: 15px;
   text-align: center;
@@ -14,6 +75,10 @@ header {
 header img {
   width: 30px;
   display: inline-block;
+}
+
+.content {
+  margin-left: 50px;
 }
 
 section {
@@ -49,6 +114,25 @@ section {
   margin-top: 20px;
 }
 
+.back-button-wrapper a {
+  text-decoration: none;
+}
+
 .boudi img{
   width: 50px;
+}
+
+.po5 {
+  background-image: url(./../images/po5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 65px;
+  width: 300px;
+  height: 300px;
+}
+
+.po5:hover {
+  background-image: url(./../images/ironman.png);
+  background-size: contain;
 }

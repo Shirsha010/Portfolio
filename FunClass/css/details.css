@@ -1,11 +1,17 @@
 h1 {
-  color: #93209f;
-  background-color: #d6a6e8;
-  border-bottom: 12px dashed purple;
+  color: yellow;
+  background-color: red;
+  border-top: 12px dashed black;
+  border-bottom:  12px dashed black;
   text-align: center;
   padding : 30px;
   margin: 0;
   margin-bottom: 30px;
+  /* background-image: url(./../images/crack.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px 300px;
+  height: 500px; */
 }
 
 
@@ -16,15 +22,40 @@ body {
   font-size: 20px
 }
 
-h2 {
-color: #e7e9d8;
+.bossu-bg {
+  background-image: url(./../images/gamer2.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  /* background-position: center; */
 }
 
-.list {
-  color: #c791e0;
-  font-size: 25px;
-  border: 5px dashed white;
+h2 {
+color: white;
+background-color: red;
+border-radius: 10px;
+width: max-content;
+text-align: center;
+border: 5px solid black;
+padding: 15px;
+}
 
+
+
+.list {
+  font-size: 25px;
+  background-color: yellow;
+  border: 5px solid black;
+  color: black;
+  padding: 30px;
+  margin-left: 10px;
+}
+
+.about {
+  background-color: yellow;
+  border: 5px solid black;
+  color: black;
+  text-align: center;
+  padding: 10px;
 }
 
 .back-button-wrapper {
@@ -32,30 +63,40 @@ color: #e7e9d8;
 }
 
 .back-button-wrapper a {
-  background-color: #d6a6e8; ;
-  color: #93209f;
+  background-color: yellow ;
+  color: black;
+  border: 5px solid black;
   text-align: center;
   padding: 10px;
   font-size: 30px;
   border-radius: 10px;
+  position: relative;
+  bottom: 50px;
 }
 
 .box {
   display: inline-block;
   color: #93209f;
-  background: #93209f;
-  border: 5px dotted #cdb8d2;
   text-align: center;
   margin-bottom: 50px;
+
 }
 
 .box a {
   display: block;
   padding: 15px;
+  text-decoration: none;
 }
 
 .box h2 {
   margin: 0;
+  position: relative;
+  right: 25px;
+}
+
+.box2 {
+  position: relative;
+  right: 55px;
 }
 
 .content {
@@ -65,9 +106,13 @@ color: #e7e9d8;
 }
 
 img {
-
   width: 500px;
-  margin: -2px;
+  margin: 30px;
+}
+
+
+.black-border {
+  border: 5px solid black;
 }
 
 .billie {
