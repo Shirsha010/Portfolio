@@ -1,0 +1,681 @@
+body {
+  margin: 0;
+  /* background-color: #042035; */
+}
+header {
+  background-color: #1e1c1c;
+  width: 509px;
+  padding-left: 1010px;
+  height: 55px;
+}
+
+.logo {
+  width: 17px;
+  margin-right: 20px;
+  margin-top: -6px;
+  padding-top: 10px;
+}
+
+.logof {
+  width: 8px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: -6px;
+  padding-top: 10px;
+}
+
+.add-cursor {
+display: inline-block;
+}
+
+.add-cursor:hover {
+  cursor: pointer;
+}
+
+nav {
+}
+
+.menu {
+  color: #000;
+  display: inline-block;
+  margin: 0 20px 0 30px;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+.menu:hover {
+  color: orange;
+  border-bottom: 3px solid #0f78c4;
+}
+
+.box {
+  height: 55px;
+  width: 200px;
+  background-color: #252323;
+  color: #70797f;
+  transition: 0.3s all ease;
+}
+
+.box:hover {
+    background-color: white;
+    color: black;
+}
+
+.white-box img {
+  height: 88px;
+  width: 323px;
+  padding-top: 12px;
+  margin-left: 150px;
+}
+
+.white-box {
+  background-color: white;
+  width: 1515px;
+  display: flex;
+  align-items:center;
+ }
+
+ .bg-img {
+   background-image: url(./../images/dark3.jpg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-color: #042035;
+   height:854px;
+   margin-bottom: 0;
+   transition: 1.5s all ease;
+ }
+
+ .bg-img:hover {
+   background-image: url(./../images/poster.png);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+   height:854px;
+
+   background-color: #e58600;
+
+ }
+
+ .bluebox {
+   color: white;
+   display: flex;
+   padding: 50px;
+ }
+
+ .blue-bg {
+   background-color: #101062;
+ }
+
+ .bluebox h2 {
+   margin-top: 0;
+   font-size: 30px;
+   font-weight: bolder;
+   margin-bottom: 10px;
+   display: block;
+ }
+
+ .bluebox p {
+   font-size: 25px;
+   font-weight: bold;
+   display: inline;
+   margin-left: 40px;
+   margin-top: 30px;
+ }
+
+ .bluebox button {
+   width: 300px;
+   font-size: 30px;
+   height: 65px;
+   padding: 10px;
+   border-radius: 7px;
+   margin-left: 55px;
+   font-weight: bolder;
+   border: 0;
+ }
+
+ .about-us {
+   display: flex;
+   margin-top: 40px;
+   background-image: url(./../images/wm.png);
+ }
+
+ .about-us-img {
+   max-width: 620px;
+   max-height: 310px;
+   overflow: hidden;
+ }
+
+ .about-us-img img {
+    width:100%;
+    transition: 1.5s all ease;
+ }
+
+ .about-us-img img:hover {
+   transform: scale(1.2);
+ }
+
+ .content {
+   width: 620px;
+   font-size: 20px;
+   margin-bottom: 30px;
+ }
+
+ .container {
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+ .short-container {
+   width: 60%;
+   margin-left: auto;
+   margin-right: auto;
+ }
+
+
+ .row2 {
+   margin-left: 30px;
+ }
+
+ .row1 h2 {
+   font-size: 34px;
+   width: 440px;
+   color: #363131;
+   margin-top: -1px;
+ }
+
+ .row1 h3 {
+   color: grey;
+   margin-right: 15px;
+ }
+
+ .shift-bottom {
+   margin-bottom: 50px;
+ }
+
+ .mail {
+   color: orange;
+   font-size: 20px;
+   text-decoration: none;
+   transition: 0.3s all ease;
+ }
+
+.mail:hover {
+  color: #70797f;
+}
+
+.mail2 {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+ .about-heading-wrapper {
+   display: flex;
+   align-items: center;
+   padding-top: 40px;
+ }
+
+ .heading-bar {
+  height: 3px;
+  width: 25px;
+  background-color: orange;
+ }
+
+ .problem-statement-image {
+   width: 570px;
+   height: 724px;
+   border: 0;
+ }
+
+ .problem-statement {
+  background-color: #d0c8c829;
+ }
+
+ .problem-statement-box {
+   height: 724px;
+ }
+
+ .ps-hover{
+   background-image: url(./../images/ps-img.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   transition: 1.4s all ease;
+ }
+
+ .ps-hover:hover {
+   background-image: url(./../images/hacker3.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: black;
+
+
+
+ }
+
+ .problem-statement-heading-wrapper {
+   display: flex;
+   align-items: center;
+   padding-top: 50px;
+   margin-left: 0;
+   padding-bottom: 30px;
+   background-color: white;
+   width: 1220px;
+ }
+
+.problem-statement h3 {
+   margin-right: 15px;
+   display: inline-block;
+   color:  #a09494;
+}
+
+.content2 {
+  margin-left: 30px;
+  width: 405px;
+  padding-top: 50px;
+  color: #483a3a;
+  font-size: 18px;
+}
+
+.content2 h2 {
+  color: #363131;
+  margin-right: 20px;
+}
+
+.content2 h3 {
+  color: #363131;
+  display: inline-block;
+  margin-right: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.orange-button {
+  width: 155px;
+  font-size: 14px;
+  height: 50px;
+  padding: 10px;
+  display: block;
+  margin-top: 20px;
+  font-weight: bolder;
+  border: 0;
+}
+
+.evaluation {
+  color: #483a3a;
+}
+
+.evaluation span {
+  font-weight: bold;
+  color: #252121;
+}
+
+.evaluation h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #252121;
+}
+
+.evaluation p {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+
+.prize-box {
+  background-color: #363f72;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.prize-section {
+  display: flex;
+  justify-content: center;
+}
+
+.border-right {
+  border-right: 2px solid white;
+}
+
+.prize-div {
+  padding: 10px 30px;
+  text-align: center;
+}
+
+.prize-div p {
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  transition: 0.3s all ease;
+}
+
+.prize-div p:hover {
+  color: #f98b4d;
+  cursor: pointer;
+}
+
+.prize-box h1 {
+  text-align: center;
+  border-bottom: 2px solid white;
+  width: 325px;
+  margin: auto;
+  font-size: 40px;
+  margin-bottom: 70px;
+}
+
+.schedule-box .heading {
+  background-color: white;
+  color: #483a3a;
+  text-align: center;
+  font-size: 55px;
+  padding-bottom: 30px;
+  transition: 0.4s all ease;
+}
+
+.schedule-content {
+  background-image: url(./../images/dark5.png);
+  width: 1519px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.logo-big{
+  width: 60px;
+}
+
+.logo-small{
+  width: 46px;
+}
+
+.dates {
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  margin-bottom: 35px;
+}
+
+.dates-row1 {
+  padding-right: 345px;
+}
+
+.dates-row2 {
+  padding-left: 220px;
+}
+
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.logo-border {
+  border: 3px solid white;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s all ease;
+
+}
+
+.logo-border:hover {
+  border: 3px solid #f98b4d;
+}
+
+.date-block {
+  padding-bottom: 35px;
+  align-items: center;
+}
+
+.shift-left {
+  margin-left: 20px;
+}
+
+.shift-right {
+  margin-right: 20px;
+}
+
+.logo-names {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.date-font {
+  font-size: 22px;
+}
+
+.double-images {
+  width: 100%;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.narco {
+  background-image: url(./../images/ncb.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 110%;
+  background-position: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.5s all ease;
+}
+
+.narco:hover {
+  background-size: 120% 130%;
+}
+
+.narco h1 {
+  border-bottom: 10px solid grey;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  transition: 1.5s all ease;
+}
+
+.narco:hover h1 {
+  border-bottom: 10px solid #0f78c4;
+}
+
+.cyber {
+  background-image: url(./../images/cyber.jpg);
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position:  center ;
+  background-size: 100% 110%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 1.5s all ease;
+}
+
+.cyber:hover {
+  background-size: 120% 130%;
+}
+
+.cyber p {
+  padding-top: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.cyber h1 {
+  margin-top: 10px;
+}
+
+.ncb-cyber-anchor {
+  color: grey;
+  text-decoration: none;
+
+}
+
+.grey-border-top {
+  border-top: 10px solid grey;
+  transition: 0.3s all ease;
+}
+
+.cyber:hover .grey-border-top{
+border-top: 10px solid #0f78c4;
+}
+
+.email {
+  background-image: url(./../images/globe.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email img {
+  padding-right: 50px;
+  width: 140px;
+}
+
+.email-content {
+  font-weight: bold;
+  font-size: 26px;
+  width: 525px;
+}
+
+.email-content h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.email-button {
+  margin-top:  0;
+  margin-left: 160px;
+}
+
+.last-section {
+  background-image: url(./../images/last_img.png);
+  background-size: cover;
+  width: 100%;
+  height: 470px;
+  padding-top: 20px;
+  color: #c7b8b8;
+  font-size: 18px;
+}
+
+
+.last-menu {
+  background-color: #222222;
+  padding-top: 20px;
+
+}
+
+.last-menu a {
+  color: #c7b8b8;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 0;
+}
+
+.menu-logo {
+  margin-left: 350px;
+  padding-bottom: 15px;
+  cursor: pointer;
+}
+
+.menu-width {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid grey;
+}
+
+.last-section h3{
+  color: white;
+}
+
+.last-section-width {
+  width: 83%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.span-bold-white {
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.contact-us {
+  padding-left: 553px;
+}
+
+.contact-us input {
+  padding: 18px;
+  width:300px;
+  font-size: 20px;
+}
+
+.contact-us h3 {
+  padding-bottom: 10px;
+}
+
+.footer {
+  background-color: #090909;
+  color: grey;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 165px;
+}
+
+.copyright {
+margin-left: auto;
+padding-right: 500px;
+}
+
+.darkathon {
+  margin-right: auto;
+  padding-left: 400px;
+}
+
+.menu2 {
+  color: #000;
+  display: inline-block;
+  margin: 0 20px 0 30px;
+  text-decoration: none;
+  transition: 0.3s all ease;
+}
+
+.menu2:hover {
+  color: white;
+}
+
+.btn-hover {
+  background-color: #f98b4d;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s all ease;
+}
+
+.btn-hover:hover {
+  background-color: white;
+  color: #f98b4d;
+}
