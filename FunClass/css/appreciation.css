@@ -1,8 +1,7 @@
 body {
-  background-color: #faf3e3;
+  background-color: white;
   margin:0;
-  border: 10px dashed #deade5;
-
+  /* border: 10px dashed #deade5; */
 }
 
 .flex {
@@ -24,12 +23,12 @@ body {
 .po1 img {
   width:100%;
   height: 100%;
-  display: inline-block;
+  visibility: hidden;
 }
 
-/* .po1 img:hover {
-  display: block;
-} */
+.po1:hover img{
+  visibility: visible;
+}
 
 .po2 {
   background-image: url(./../images/po2.webp);
@@ -66,14 +65,18 @@ body {
 
 header {
   background-color: #efb7df;
- 
+  background-image: url(./../images/polka\ dots.png);
+  background-size: cover;
   color: white;
   padding: 15px;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 4px solid black;
 }
 
+
 header img {
-  width: 30px;
+  width: 100px;
   display: inline-block;
 }
 
