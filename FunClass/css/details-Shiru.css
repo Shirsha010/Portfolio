@@ -1,17 +1,12 @@
 h1 {
-  color: yellow;
-  background-color: red;
-  border-top: 12px dashed black;
-  border-bottom:  12px dashed black;
+  color: #ffe001;
+  background-color: #00acac;
+  border: 12px solid #ffe001;
   text-align: center;
   padding : 30px;
   margin: 0;
   margin-bottom: 30px;
-  /* background-image: url(./../images/crack.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 500px 300px;
-  height: 500px; */
+  
 }
 
 
@@ -22,11 +17,11 @@ body {
   font-size: 20px
 }
 
-.bossu-bg {
-  background-image: url(./../images/gamer2.jpg);
+.shiru-bg {
+  background-image: url(./../images/bg3.jpg);
   background-repeat: repeat;
   background-size: contain;
-  /* background-position: center; */
+  background-position: center;
 }
 
 h2 {
@@ -88,6 +83,18 @@ padding: 15px;
   text-decoration: none;
 }
 
+.box-bg {
+  width: 300px;
+  height: 300px;
+  background-image: url(./../images/bluebox.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.box-bg:hover {
+  background-image: url(./../images/tigress.png);
+}
+
 .box h2 {
   margin: 0;
   position: relative;
@@ -118,4 +125,10 @@ img {
 .billie {
   width: 300px;
   margin-left: 100px;
+}
+
+.shiru-pic {
+  width: 400px;
+  margin: 30px;
+  border: 4px solid #ffe001;
 }

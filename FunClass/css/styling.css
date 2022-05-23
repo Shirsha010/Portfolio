@@ -27,8 +27,7 @@ body {
 
 .student-heading h2 {
   position: relative;
-  top: 99px;;
-  left: 4px;
+  top: 99px;
   margin-top: 0;
   margin-bottom: 0;
 
@@ -44,9 +43,25 @@ body {
   bottom: 15px;
 }
 
+.bossu-pic {
+  background-image: url(./../images/baby.png);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
 
-.banner img {
-  width:300px;
+.shiru-pic {
+  background-image: url(./../images/shiru.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
+}
+
+.boudi-pic {
+  background-image: url(./../images/boudi.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 150px;
 }
 
 .Photos {
@@ -164,11 +179,6 @@ body {
 
 .hands img {
   width: 165px;
-}
-
-.img-frame {
-  position: relative;
-  right: 20px;
 }
 
 .Photos a {
