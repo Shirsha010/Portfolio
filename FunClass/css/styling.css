@@ -48,6 +48,11 @@ body {
   background-size: cover;
   background-position: center;
   height: 150px;
+  transition: 1s all ease;
+}
+
+.bossu-pic:hover {
+  background-image: url(./../images/bossui.jpg);
 }
 
 .shiru-pic {
@@ -55,6 +60,11 @@ body {
   background-size: cover;
   background-position: center;
   height: 150px;
+  transition: 1s all ease;
+}
+
+.shiru-pic:hover {
+  background-image: url(./../images/shiru1.jpeg);
 }
 
 .boudi-pic {
@@ -62,6 +72,11 @@ body {
   background-size: cover;
   background-position: center;
   height: 150px;
+  transition: 1s all ease;
+}
+
+.boudi-pic:hover {
+  background-image: url(./../images/boudi3.jpg);
 }
 
 .Photos {
@@ -143,6 +158,7 @@ button {
   cursor: pointer;
   transition: 1s all ease;
   border: 4px solid black;
+  font-weight: bold;
 }
 
 button:hover {
@@ -155,7 +171,6 @@ button:hover {
   border-radius: 10px;
   cursor: pointer;
   border: 4px solid black;
-  font-weight: bold;
  
 }
 

@@ -1,43 +1,70 @@
 h1 {
-    color: yellow;
-    background-color: red;
-    border-top: 12px dashed black;
-    border-bottom:  12px dashed black;
+    color: #ffff00;
+    background-color: #02a7ce;
+    border-top: 12px dashed #0e3a5c;
+    border-bottom:  12px dashed #0e3a5c;
     text-align: center;
     padding : 30px;
     margin: 0;
-    margin-bottom: 30px;
   }
   
   
   body {
     margin: 0;
-    font-size: 20px
-  }
-  
-  .bossu-bg {
-    background-image: url(./../images/gamer2.jpg);
+    font-size: 20px;
+    background-image: url(./../images/bg3.png );
     background-repeat: repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hobby {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+  }
+
+  .boudi-content {
+    background-color: #ffff00;
+    color: #0085bb;
+    padding: 30px;
+    position: relative;
+    top: 166px;
+    border: 5px solid black;
+    opacity: 100%;
+  }
+
+  .boudi-content:hover {
+    opacity: 0%;
   }
   
   h2 {
-  color: white;
-  background-color: red;
+  color: #0085bb;
+  background-color: #ffff00;
   border-radius: 10px;
   width: max-content;
   text-align: center;
   border: 5px solid black;
-  padding: 15px;
+  padding: 10px;
+  font-size: 28px;
   }
   
   .list {
     font-size: 25px;
-    background-color: yellow;
+    font-weight: bold;
+    background-color: #0085bb;
     border: 5px solid black;
-    color: black;
+    color:  #ffff00;
     padding: 30px;
-    margin-left: 10px;
+    position: relative;
+    bottom: 180px;
+    opacity: 0%;
+    transition: 1.5s all ease-in-out;
+  }
+
+  .list:hover {
+    opacity: 100%;
   }
   
   .about {
@@ -50,18 +77,39 @@ h1 {
   
   .back-button-wrapper {
     text-align: center;
+    position: relative;
+    bottom: 152px;
   }
   
   .back-button-wrapper a {
     background-color: yellow ;
-    color: black;
-    border: 5px solid black;
+    color: #0085bb;
+    font-weight: bold;
+    border: 4px solid black;
     text-align: center;
-    padding: 10px;
-    font-size: 30px;
-    border-radius: 10px;
+    padding: 20px;
+    font-size: 35px;
+    border-radius: 6px;
     position: relative;
-    bottom: 50px;
+    bottom: 40px;
+    left: 2px;
+    text-decoration: none;
+  }
+
+  .shinchan {
+    width:  345px;
+    height: 250px;
+    position: relative;
+    bottom: 200px;
+    left: 119px;
+    background-image: url(./../images/shinchan.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .shinchan:hover {
+    background-image: url(./../images/shinchan2.png);
   }
   
   .box {
@@ -69,7 +117,8 @@ h1 {
     color: #93209f;
     text-align: center;
     margin-bottom: 50px;
-  
+    position: relative;
+    bottom: 238px;
   }
   
   .box a {
@@ -81,7 +130,7 @@ h1 {
   .box h2 {
     margin: 0;
     position: relative;
-    right: 25px;
+    right: 10px;
   }
   
   .box2 {
@@ -90,19 +139,86 @@ h1 {
   }
   
   .content {
-    width: 530px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
   }
   
-  img {
-    width: 500px;
+  .frame {
+    width: 363px;
     margin: 30px;
+    height: 516px;
+    position: relative;
+    bottom: 59px;
+    left: 36px;
   }
   
   
-  .black-border {
-    border: 5px solid black;
+  .boudi-pic {
+    width: 497px;
+    height: 406px;
+    background-image: url(./../images/boudi1.jpg);
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    background-repeat: no-repeat;
+    left: 50px;
+    top:  44px;
+    transition: 1.5s all ease-in-out;
   }
-  
-  
+
+  .boudi-pic:hover {
+    background-image: url(./../images/boudi2.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .pokemon {
+    height: 330px;
+    width: 475px;
+    position: relative;
+    left: 55px;
+    top: 40px;
+    background-image: url(./../images/poke1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: 0.8s all ;
+  }
+
+  .pokemon:hover {
+    background-image: url(./../images/poke2.png);
+    background-size: cover;
+    left: 30px;
+  }
+
+  .taylor {
+    background-image: url(./../images/taylor2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 552px;
+    height: 435px;
+    position: relative;
+    left: 35px;
+    bottom: 185px;
+    transition: 1.5s all ease;
+  }
+
+  .taylor:hover {
+    background-image: url(./../images/taylor3.png);
+    bottom: 145px;  
+  }
+
+  .perman {
+    width: 75%;
+    position: relative;
+    left: 65px;
+    bottom: 60px;
+    transition: 1.5s all ease-in-out;
+  }
+
+  .perman:hover {
+    transform: scale(1.3);
+  }

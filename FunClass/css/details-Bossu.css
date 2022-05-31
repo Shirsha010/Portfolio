@@ -22,16 +22,14 @@ body {
 }
 
 .box  h2 {
-color: white;
-background-color: red;
-border-radius: 10px;
-width: max-content;
-text-align: center;
-border: 5px solid black;
-padding: 15px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  border: 5px solid black;
+  padding: 15px;
 }
-
-
 
 .list {
   font-size: 25px;
@@ -85,13 +83,16 @@ padding: 15px;
 
 .box h2 {
   margin: 0;
-  position: relative;
-  right: 25px;
 }
 
 .box2 {
   position: relative;
   right: 55px;
+  transition: 1s all ease-in-out;
+}
+
+.box2:hover {
+  transform: scale(1.25);
 }
 
 .content {
@@ -117,38 +118,59 @@ img {
 
 .hobby{
   font-size: 35px;
-  background-color: black;
-  padding: 10px;
-  color: yellow;
-  display: inline-block;
-  border: 7px dashed yellow;
-  margin-bottom: 0;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin-top: 0;
   position: relative;
   left: 10px;
 }
 
 .avg2 {
   position: relative;
-  left: 11px;
-  background-image: none
+  left: 85px;
+  top: 30px;
+  width:500px;
+  height: 570px;
+  background-image: url(./../images/ironman2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: 1s all ease-in-out;
 }
 
 .avg2:hover {
-  background-image: url(./../images/cards.png);
+  background-image: url(./../images/panda.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-size: contain;
+  position: relative;
+  left:20px;
+  top:-75px;
+  
 }
 
 .avg2 img {
   visibility: visible;
   position: relative;
+  transition: 1s all solid  ;
 }
 
 .avg2:hover img {
   visibility: hidden;
+  transition: 1s all solid  ;
 }
 
-.panda {
-  position: relative;
-  top:  100px;
-}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+.bossu-pic {
+  background-image: url(./../images/bossu2.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 360px;
+  border: 10px solid black;
+  transition: 2s all ease;
+}
+
+.bossu-pic:hover {
+  background-image: url(./../images/smortkid.jpg);
+}

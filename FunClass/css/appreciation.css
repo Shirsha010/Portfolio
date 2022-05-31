@@ -14,6 +14,7 @@ body {
   background-position: center;
   width: 300px;
   height: 300px;
+  transition: 1s all ease-in-out;
 }
 
 .po1:hover {
@@ -36,6 +37,7 @@ body {
   background-position: center;
   width: 300px;
   height: 300px;
+  transition: 1s all ease-in-out;
 }
 
 .po2:hover {
@@ -43,11 +45,19 @@ body {
 }
 
 .po3 {
-  background-image: url(./../images/po3.jpg);
+  background-image: url(./../images/po3.webp);
   background-size: cover;
   background-position: center;
   width: 300px;
   height: 300px;
+  transition: 1s all ease-in-out;
+}
+
+.po3:hover {
+  background-image: url(./../images/bossu3.png);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .po4 {
@@ -57,6 +67,7 @@ body {
   background-position: center;
   width: 300px;
   height: 300px;
+  transition: 1s all ease-in-out;
 }
 
 .po4:hover {
@@ -133,6 +144,7 @@ section {
   margin-top: 65px;
   width: 300px;
   height: 300px;
+  transition: 1s all ease;
 }
 
 .po5:hover {
