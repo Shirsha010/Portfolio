@@ -71,7 +71,7 @@ margin-right: auto;
     font-weight: 600;
 }
 
-.sub-heading-purple {
+.text-purple {
     color: #6b67f5;
 }
 
@@ -104,8 +104,7 @@ margin-right: auto;
      font-size: 20px;
  }
 
- .shopify {
-    width: 100px;
+ .shopify-hero {
     position: relative;
     top: 20px;
     margin-left: 40px;
@@ -135,3 +134,39 @@ margin-right: auto;
      position: relative;
      right: 20px;
  }
+
+ .logo-lg {
+     width: 200px;
+ }
+
+ .logo-mid {
+    width: 140px;
+}
+
+.logo-sm {
+    width: 100px;
+}
+
+.right-gap {
+    margin-right: 50px;
+}
+
+.logo-pos-down {
+    position: relative;
+    top: 10px;
+}
+
+.second-sec {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.second-sec-heading {
+    font-size: 40px;
+}
+
+.second-sec-text {
+    margin-bottom: 85px;
+    font-size: 20px;
+    color: #80829c;
+}
