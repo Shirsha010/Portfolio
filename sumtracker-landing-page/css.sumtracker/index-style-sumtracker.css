@@ -147,6 +147,11 @@ margin-right: auto;
     width: 100px;
 }
 
+.logo-dp {
+    width: 65px;
+    height: 65px;
+}
+
 .right-gap {
     margin-right: 50px;
 }
@@ -170,3 +175,65 @@ margin-right: auto;
     font-size: 20px;
     color: #80829c;
 }
+
+.third-sec {
+    margin-top: 200px;
+    background-color: #f3f7ff;
+    padding: 50px;
+    border-radius: 20px;
+    padding-top: 45px;
+}
+
+.third-sec-1 {
+    width: 30%;
+    font-size: 20px;
+    position: relative;
+    top: 35px;
+}
+
+.third-sec-2 {
+    width: 34%;
+    font-size: 20px;
+    padding-right: 75px;
+    padding-top: 35px;
+    border-right: 2px solid #cadcff;
+}
+
+.third-sec-3 {
+    width: 40%;
+    position: relative;
+    left: 80px;
+    top: 35px;
+}
+
+.shopify-third-sec {
+    position: relative;
+    top: 20px;
+ }
+
+ .capterra-third-sec {
+    width: 115px;
+    height: 25px;
+    position: relative;
+    top: 25px;
+    margin-left: 35px
+ }
+
+ .star-text-2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+ }
+
+ .third-sec-1-name {
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+ }
+
+ .third-sec-1-founder {
+    position: relative;
+    left: 15px;
+    bottom: 25px;
+ }
