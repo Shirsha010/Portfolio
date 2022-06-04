@@ -1,8 +1,15 @@
 body {
-margin-top: 20px;
-width: 80%;
-margin-left: auto;
-margin-right: auto;
+    margin: 20px 0 0;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
 }
 
 .nav-bar {
@@ -54,7 +61,7 @@ margin-right: auto;
 
 .hero-section {
     display: flex;
-    margin-top: 90px;
+    padding-top: 90px;
     justify-content: space-between;
 }
 
@@ -80,10 +87,6 @@ margin-right: auto;
     margin-top: 20px;
  }
 
- .flex {
-     display: flex;
- }
-
  .video-logo {
      width: 60px;
      margin-left: 30px;
@@ -100,7 +103,7 @@ margin-right: auto;
      font-weight: 600;
  }
 
- .hero-plan {
+ .plans-text {
      font-size: 20px;
  }
 
@@ -110,7 +113,7 @@ margin-right: auto;
     margin-left: 40px;
  }
 
- .capterra {
+ .capterra-hero {
     width: 115px;
     height: 25px;
     position: relative;
@@ -118,7 +121,7 @@ margin-right: auto;
     margin-left: 45px
  }
 
- .star-text {
+ .star-text-hero {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 5px;
@@ -161,57 +164,71 @@ margin-right: auto;
     top: 10px;
 }
 
-.second-sec {
-    margin-top: 200px;
+.integrations {
+    padding: 175px 0px 100px;
     text-align: center;
 }
 
-.second-sec-heading {
+.integrations-heading {
     font-size: 40px;
 }
 
-.second-sec-text {
+.integrations-text {
     margin-bottom: 85px;
     font-size: 20px;
     color: #80829c;
 }
 
-.third-sec {
-    margin-top: 200px;
+.testimonial-padding {
+    padding: 90px 0 80px;
+}
+
+.testimonial {
     background-color: #f3f7ff;
     padding: 50px;
     border-radius: 20px;
     padding-top: 45px;
 }
 
-.third-sec-1 {
+.testimonial-div1 {
     width: 30%;
     font-size: 20px;
-    position: relative;
-    top: 35px;
+    padding-top: 45px;
 }
 
-.third-sec-2 {
-    width: 34%;
+.testimonial-div1-name {
+    font-weight: bold;
+    position: relative;
+    left: 15px;
+    bottom: 10px;
+ }
+
+ .testimonial-div1-founder {
+    position: relative;
+    left: 15px;
+    bottom: 25px;
+ }
+
+.testimonial-div2 {
+    width: 30%;
     font-size: 20px;
     padding-right: 75px;
     padding-top: 35px;
     border-right: 2px solid #cadcff;
 }
 
-.third-sec-3 {
+.testimonial-div3 {
     width: 40%;
-    position: relative;
-    left: 80px;
-    top: 35px;
+    padding-left: 80px;
+    padding-top: 35px;
 }
 
-.shopify-third-sec {
+.shopify-testimonial {
     position: relative;
     top: 20px;
  }
 
- .capterra-third-sec {
+ .capterra-testimonial {
     width: 115px;
     height: 25px;
     position: relative;
@@ -219,21 +236,95 @@ margin-right: auto;
     margin-left: 35px
  }
 
- .star-text-2 {
+ .star-text-testimonial {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 15px;
  }
 
- .third-sec-1-name {
-    font-weight: bold;
-    position: relative;
-    left: 15px;
-    bottom: 10px;
+ .solution-padding {
+    padding-top: 100px;
  }
 
- .third-sec-1-founder {
-    position: relative;
-    left: 15px;
-    bottom: 25px;
+ .solution {
+    width: 100%; 
+    margin-left: auto;
+    background-image: url(./../images/light-yello-bg-right-2.svg); 
+    background-repeat: no-repeat;
+    background-size: 103%;
+
+}
+
+ .solution-div1 {
+     width: 50%; 
+     padding-left: 145px;
  }
+
+ .solution-div1-main-heading {
+     font-size: 40px;
+     width: 60%;
+     margin-bottom: 0;
+ }
+
+ .bold {
+     font-weight: bold;
+ }
+
+.solution-text {
+    color: #50515f;
+    font-size: 20px;
+    width: 75%;
+    margin-top: 15px;
+}
+
+.solution-percentage {
+    font-size: 60px;
+}
+
+.solution-percentage-text {
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+}
+
+.solution-pos-bottom {
+    position: relative;
+    bottom: 75px;
+}
+
+.solution-trial-btn {
+    margin-top: 50px;
+}
+
+.solution-div2 {
+    width: 80%;
+    margin-right: 0;
+    margin-left: 150px;
+    padding-top: 70px;
+}
+
+.solution-div2-logo {
+    background-color: #fff0ce;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 45px;
+}
+
+.solution-div2-logo svg {
+    position: relative;
+    top: 11px;
+    left: 13px;
+}
+
+.solution-div2-content {
+    padding-left: 70px;
+    width: 60%;
+}
+
+
+
+
+
