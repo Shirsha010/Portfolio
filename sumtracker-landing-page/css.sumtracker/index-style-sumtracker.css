@@ -262,7 +262,7 @@ body {
 
  .solution-div1-main-heading {
      font-size: 40px;
-     width: 60%;
+     width: 70%;
      margin-bottom: 0;
  }
 
@@ -322,6 +322,47 @@ body {
 .solution-div2-content {
     padding-left: 70px;
     width: 60%;
+}
+
+.feature-container{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-image {
+    width: 55%;
+}
+
+.feature-image img {
+    width: 100%;
+}
+
+.feature-text {
+    width: 30%;
+    padding-top: 100px;
+}
+
+.purchase-list-pos {
+    position: relative;
+    bottom: 262px;
+    left: 132px;
+    width: 85% !important;
+}
+
+.bundles-single-list-pos {
+    position: relative;
+    bottom: 300px;
+    left: 145px;
+    width: 80% !important;
+}
+
+.feature-headings {
+    font-size: 35px;
+}
+
+.feature-sub-text {
+    font-size: 22px;
 }
 
 
