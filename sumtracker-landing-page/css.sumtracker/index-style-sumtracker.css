@@ -203,14 +203,14 @@ body {
     padding-top: 45px;
 }
 
-.testimonial-div1-name {
+.testimonial-name {
     font-weight: bold;
     position: relative;
     left: 15px;
     bottom: 10px;
  }
 
- .testimonial-div1-founder {
+ .testimonial-founder {
     position: relative;
     left: 15px;
     bottom: 25px;
@@ -377,10 +377,11 @@ body {
     color: #80829c;
 }
 
-.steps-padding-down {
-    padding-bottom: 100px;
+.steps-container {
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 100px;
 }
-
 
 .steps-heading {
     text-align: center;
@@ -399,9 +400,9 @@ body {
     border-radius: 10px;
 }
 
-.steps-number p {
+.steps-number-style {
     position: relative;
-    left: 45px;
+    left: 50px;
     color: #fbba45;
     font-size: 40px;
 }
@@ -421,7 +422,7 @@ body {
 }
 
 .customers-padding {
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .customers-heading {
@@ -453,7 +454,61 @@ body {
     padding-right: 140px;
 }
 
+.Testimony-arrow {
+    display: flex;
+    justify-content: space-between;
+}
 
+.testimony-divs {
+    width: 40%;
+    padding: 50px 40px 20px;
+    background-color: #f3f7ff;
+    border-radius: 25px;
+    height: fit-content;
+}
+
+.testimonial-heading {
+    font-size: 35px;
+    text-align: center;
+}
+
+.testimonial-text {
+    font-size: 20px;
+    text-align: center;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 80px;
+}
+
+.testimony-name-size {
+    font-size: 18px;
+}
+
+.testimony-reviews-text {
+    padding-left: 55px;
+    font-size: 20px;
+    width: 45%;
+    position: relative;
+    bottom: 12px;
+}
+
+.testimony-five-stars {
+    width: 60%;
+    position: relative;
+    bottom: 50px;
+    left: 75px;
+}
+
+.mosi-five-stars {
+    padding-right: 100px;
+}
+
+.testimony-logos {
+    width: 160px;
+    position: relative;
+    bottom: 40px;
+}
 
 
 
