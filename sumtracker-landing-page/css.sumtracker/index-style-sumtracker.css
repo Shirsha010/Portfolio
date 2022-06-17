@@ -187,7 +187,7 @@ body {
 }
 
 .testimonial-padding {
-    padding: 90px 0 80px;
+    padding: 90px 0 70px;
 }
 
 .testimonial {
@@ -509,6 +509,80 @@ body {
     position: relative;
     bottom: 40px;
 }
+
+footer {
+    background-color: black;
+    padding: 80px 80px 40px;
+    color: white;
+}
+
+.footer-divs {
+    width: 35%;
+    font-size: 18px;
+    margin-right: 85px;
+}
+
+.product-com-help {
+    padding-left: 50px;
+    position: relative;
+    bottom: 20px;
+}
+
+.top-margin {
+    margin-top: 65px;
+}
+
+.long-text {
+    width: 130%;
+    margin-right: 100px;
+}
+
+.conclusion {
+    width: 90%;
+    background-color: #fff6e1;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    height: 500px;
+}
+
+.male-img {
+    position: relative;
+    left: 20px;
+    bottom: 55px;
+}
+
+.female-img {
+    position: relative;
+    bottom: 170px;
+    left: 450px;
+}
+
+.conclusion-btn {
+    position: relative;
+    left: 215px;
+    bottom: 540px;
+}
+
+.conclusion-heading {
+    text-align: center;
+    font-size: 30px;
+}
+
+.conclusion-text {
+    text-align: center;
+    width: 40%;
+    color: #50515f;
+    font-size: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conclusion-header {
+    position: relative;
+    top: 105px;
+}
+
 
 
 
