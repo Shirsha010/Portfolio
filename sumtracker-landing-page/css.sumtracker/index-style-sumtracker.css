@@ -259,7 +259,6 @@ body {
     background-image: url(./../images/light-yello-bg-right-2.svg); 
     background-repeat: no-repeat;
     background-size: 103%;
-
 }
 
  .solution-div1 {
@@ -370,6 +369,28 @@ body {
 
 .feature-sub-text {
     font-size: 22px;
+}
+
+.multi-channel-bg {
+    background-image: url(./../images/Multi\ Channel.svg);
+    background-repeat: no-repeat;
+    padding-left: 100px;
+}
+
+.bundles-kits-bg {
+    background-image: url(./../images/Bundles\ &\ Kits.svg);
+    background-repeat: no-repeat;
+    padding-right: 100px;
+}
+
+.purchase-order-bg {
+    background-image: url(./../images/Purchase\ Orders.svg);
+    background-repeat: no-repeat;
+    padding-left: 100px;
+}
+
+.feature-text-container {
+    width: 50%;
 }
 
 .grey-text {
