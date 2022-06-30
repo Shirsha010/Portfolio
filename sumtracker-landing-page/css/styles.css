@@ -795,3 +795,23 @@ footer .wrapper {
     bottom: 45px;
     left: 520px;
 }
+
+.art-dash-waves::before {
+    content: ' ';
+    background-image: url(../images/how-it-works-line-bg.svg);
+    background-repeat: no-repeat;
+    width: 69%;
+    height: 33px;
+    position: absolute;
+    bottom: 342px;
+    left: 208px;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+@media (min-width: 767px) {    
+    .hero {
+        display: none !important;
+    }
+}
