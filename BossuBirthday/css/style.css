@@ -1,0 +1,78 @@
+body {
+    background-color: #b880d2;
+    background-image: url(../images/polka.png);
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+    transform: rotate(45deg);
+}
+
+.hbd {
+    position: relative;
+    left: 250px;
+    width: 500px;
+    bottom: 60px;
+}
+
+.bb-right {
+    width: 250px;
+    position: absolute;
+    right: 159px;
+    top: 55px;
+}
+
+.bb-left {
+    width: 250px;
+    position: relative;
+    bottom: 60px;
+    left: 115px;
+}
+
+.dora-bg {
+    background-image: url(../images/doraemon.png);
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    left: 350px;
+    background-position: center;
+    background-size: cover;
+}
+
+.dora-bg:hover {
+    background-image: url(../images/dora2.png);
+    width: 340px;
+    background-size: contain;
+}
+
+.popo {
+    display: block;
+}
+
+.popo:hover {
+    display: none;
+}
+
+.dora-text {
+    font-size: 30px;
+    color: blueviolet;
+    position: absolute;
+    bottom: 60px;
+    width: 20%;
+    right: 240px;
+}
+
+
+.cloud {
+    position: relative;
+    width: 360px;
+    bottom: 500px;
+    left: 60%;
+}
+
+.wrapper {
+    padding-top: 50px;
+}
