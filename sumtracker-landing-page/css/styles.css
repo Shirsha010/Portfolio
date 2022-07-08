@@ -809,6 +809,10 @@ footer .wrapper {
     z-index: -1;
 }
 
+@media (min-width: 541px) {
+    
+}
+
 
 @media (max-width: 540px) {
     .nav-bar {
@@ -831,10 +835,7 @@ footer .wrapper {
     }
 
     .hero-img {
-        margin-top: 40px;
-        width: 350px;
-        position: relative;
-        right: 0;
+        display: none;
     }
 
     .sm-block {
@@ -843,14 +844,15 @@ footer .wrapper {
 
     .video-logo {
         width: 60px;
-        margin-left: 115px;
+        margin-left: 150px;
         margin-top: 20px;
         position: relative;
         right: 60px;
-    }
+}
+    
 
     .watch-video {
-        margin-left: 55px;
+        margin-left: 100px;
         margin-top: 10px;
         font-size: 20px;
         position: relative;
@@ -861,7 +863,7 @@ footer .wrapper {
     .plans-text {
         margin-top: 40px;
         margin-bottom: 20px;
-        margin-left: 60px;
+        margin-left: 80px;
         position: relative;
         bottom: 50px;
         font-size: 22px;
@@ -873,31 +875,32 @@ footer .wrapper {
 
     .lg-btn {
         font-size: 20px;
+        padding: 20px 30px;
     }
 
     .hero .trail-btn {
-        margin-left: 50px;
+        margin-left: 75px;
     }
 
     .hero .capterra {
-        width: 145px;
-        height: 35px;
+        width: 130px;
+        height: 30px;
         position: relative;
         top: 40px;
-        right: 170px;
+        right: 140px;
     }
 
     .hero .shopify {
         position: relative;
         top: 10px;
-        right: 145px;
-        width: 145px;
+        right: 115px;
+        width: 120px;
     }
 
     .hero .five-stars {
         width: 150px;
         position: relative;
-        left: 110px;
+        left: 130px;
         bottom: 65px;
     }
 
@@ -907,7 +910,7 @@ footer .wrapper {
         margin-bottom: 5px;
         position: relative;
         bottom: 60px;
-        left: 120px;
+        left: 140px;
     }
 
     .heading {
@@ -923,8 +926,15 @@ footer .wrapper {
     .yellow-bar::before {
         left: 150px;
     }
+
+    
     
     .shine-tilt::after {
         right: -45px;
+    }
+
+    .sm-hero-img {
+        width: 350px;
+        margin-left: 40px;
     }
 }
