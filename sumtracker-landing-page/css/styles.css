@@ -913,6 +913,11 @@ footer .wrapper {
         left: 140px;
     }
 
+    .sm-hero-img {
+        width: 350px;
+        margin-left: 40px;
+    }
+
     .heading {
         font-size: 33px;
         position: relative;
@@ -920,21 +925,55 @@ footer .wrapper {
     }
 
     .integrations {
-        padding: 150px 0px 100px;
+        padding: 120px 0px 100px;
     }
 
     .yellow-bar::before {
         left: 150px;
     }
 
-    
+    .grey-text {
+        font-size: 21px;
+    }
     
     .shine-tilt::after {
         right: -45px;
     }
 
-    .sm-hero-img {
-        width: 350px;
-        margin-left: 40px;
+    .logo-container {
+        width: 50%;
+        display: flex;
+        padding: 25px;
     }
+
+    .logo-lg {
+        height: 45px;
+        position: relative;
+        right: 20px;
+    }
+
+    .logo-sm {
+        width: 110px;
+    }
+
+    .logo-pos-down {
+        position: relative;
+        top: 0;
+    }
+
+    .logo-mid {
+        position: relative;
+        height: 50px;
+    }
+
+    .right-gap {
+        margin-right: 40px;
+    }
+
+    .etsy {
+        position: relative;
+        left: 20px;
+        margin-right: 80px;
+    }
+    
 }
