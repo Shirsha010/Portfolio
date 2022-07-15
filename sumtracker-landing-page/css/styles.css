@@ -973,13 +973,14 @@ footer .wrapper {
     }
     
     .shine-tilt::after {
-        right: -45px;
+        right: -30px;
     }
 
     .logo-container {
-        width: 50%;
         display: flex;
         padding: 25px;
+        position: relative;
+        right: 10px;
     }
 
     .logo-lg {
@@ -997,9 +998,9 @@ footer .wrapper {
         top: 0;
     }
 
-    .logo-mid {
+    .integrations .logo-mid {
         position: relative;
-        height: 50px;
+        height: 45px;
     }
 
     .right-gap {
@@ -1010,6 +1011,13 @@ footer .wrapper {
         position: relative;
         left: 20px;
         margin-right: 80px;
+        width: 90px;
+    }
+
+    .ebay {
+        width: 105px;
+        position: relative;
+        right: 20px;
     }
 
     .testimonial {
