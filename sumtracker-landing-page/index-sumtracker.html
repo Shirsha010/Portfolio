@@ -10,15 +10,28 @@
  <body>
     <nav>
         <div  class="nav-bar container">
-            <img src="./images/Logo.svg" />
+            <div class="sm-flex">
+                <img src="./images/Logo.svg" />
+                <img src="./images/menu-bar.png" class="hide-lg visible-sm menu_bar"/>
+            </div>
     
             <div class="nav-options">
-                <a href="https://www.google.com/" target="_blank">Features</a>
-                <a href="https://www.google.com/" target="_blank">Integrations</a>
-                <a href="https://www.google.com/" target="_blank">Pricing</a>
-                <a href="https://www.google.com/" target="_blank">Blog</a>
+                <a href="https://www.google.com/" target="_blank" >Features</a>
+                <a href="https://www.google.com/" target="_blank" >Integrations</a>
+                <a href="https://www.google.com/" target="_blank" >Pricing</a>
+                <a href="https://www.google.com/" target="_blank" >Blog</a>
                 <a href="https://www.google.com/" target="_blank" class="login">LOGIN</a>
                 <button class="cta-btn sm-btn btn-nav art-btn">TRY IT FREE</button>
+            </div>
+        </div>
+        <div class="nav-options-sm hide-lg visible-sm">
+            <a href="https://www.google.com/" target="_blank" class="sm-block">Features</a>
+            <a href="https://www.google.com/" target="_blank" class="sm-block">Integrations</a>
+            <a href="https://www.google.com/" target="_blank" class="sm-block">Pricing</a>
+            <a href="https://www.google.com/" target="_blank" class="sm-block">Blog</a>
+            <a href="https://www.google.com/" target="_blank" class="login sm-block">LOGIN</a>
+            <div class="nav-sm-btn">
+                <button class="cta-btn sm-btn btn-nav ">TRY IT FREE</button>
             </div>
         </div>
     </nav>
@@ -38,17 +51,21 @@
             <img src="./images/home-hero-img-552.svg" class="sm-hero-img"/>
             <div class="flex sm-block">
                 <button class="cta-btn lg-btn trail-btn">FREE 30-DAYS TRIAL</button>
-                <img src="./images/video-logo.png" class="video-logo" />
-                <p class="watch-video">WATCH  VIDEO</p>
-            </div>
-            <p class="plans-text">Plans start at $39/month only</p>
-            <div class="flex">
-                <div>
-                    <p class="star-text">Rated 5 Star</p>
-                    <img src="./images/five-star.svg" class="five-stars" />
+                <div class="flex">
+                    <img src="./images/video-logo.png" class="video-logo" />
+                    <p class="watch-video text-center-sm">WATCH  VIDEO</p>
                 </div>
-                <img src="./images/shopify_logo_whitebg.svg" class="shopify logo-sm" />
-                <img src="./images/capterra-logo.webp" class="capterra" />
+            </div>
+            <p class="plans-text text-center-sm">Plans start at $24/month only</p>
+            <div class="flex sm-block">
+                <div class="rating">
+                    <p class="star-text text-center-sm">Rated 5 Star</p>
+                    <img src="./images/five-star.svg" class="star-img five-stars img-center" />
+                </div>
+                <div class="sm-flex">
+                    <img src="./images/shopify_logo_whitebg.svg" class="shopify logo-sm img-center" />
+                    <img src="./images/capterra-logo.webp"  class="capterra img-center" />
+                </div>
             </div>
         </div>
         <img src="./images/home-hero-img-552.svg" class="hero-img"/>
@@ -76,7 +93,7 @@
         </div>
     </section>
 
-    <!-- <section class="testimonial">
+    <section class="testimonial">
         <div class="wrapper">
             <div class="flex sm-block">
                 <div class="info">
@@ -101,19 +118,21 @@
                     </p>
                 </div>
 
+                <div class="testimonial-border"></div>
+
                 <div class="rating">
                     <p class="star-text">Rated 5 Star</p>
-                    <img src="./images/five-star.svg" />
-                    <div class="flex sm-block">
+                    <img src="./images/five-star.svg" class="star-img" />
+                    <div class="flex sm-block logo-container">
                         <img src="./images/shopify_logo_whitebg.svg" class="shopify logo-sm" />
                         <img src="./images/capterra-logo.webp" class="capterra" />
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="solution">
+    <section class="solution">
         <div class="flex wrapper sm-block">
             <div class="stats">
                 <h1 class="main-heading yellow-bar art-four-bars">A solution for every store owner</h1>
@@ -273,9 +292,9 @@
                 <img src="./images/purchase-order-list.webp" class="purchase-list-pos" />
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="how-it-works art-dash-waves ">
+    <section class="how-it-works art-dash-waves ">
         <div class="container">
             <h1 class="heading text-center yellow-bar art-dot-slash-curve-right">How it works</h1>
             <p class="text-center grey-text">Master the art of inventory management in just 4 steps.</p>
@@ -325,7 +344,7 @@
 
     <section class="customers">
         <div class="container">
-            <h1 class="heading text-center yellow-bar shine-parallel">1000+ Happy Customers</h1>
+            <h1 class="heading text-center yellow-bar shine-parallel">1000+  Happy Customers</h1>
             <div class="logos">
                 <img src="./images/ozdingo-logo.webp" class="ozdingo" />
                 <img src="./images/vahdam-logo.webp" class="vahdam" />
@@ -333,27 +352,27 @@
                 <img src="./images/huracan-fabrication-logo.webp" class="huracan" />
             </div>
         </div>
-    </section> -->
+    </section>
 
-    <!-- <section class="testimonial-slider">
+    <section class="testimonial-slider">
             <h1 class="heading text-center yellow-bar art-s-curve">Testimonials</h1>
             <p class="color-sentence">
                 <span class="text-purple">We see the bigger picture with you in it,</span>
                 <span class="grey-text"> and that’s why we are all ears for your valuable feedback.</span>
             </p>
             <div class="wrapper">
-                <div class="feedback-container">
+                <div class="views-co-feedback-container">
                     <div class="feedback">
                         <div class="flex sm-block">
                             <div>
                                 <div class="flex sm-block">
                                     <img src="./images/dp.webp" class="logo-dp"/>
                                     <div>
-                                        <p class="text-purple founder-name name-size">Hannah Gardner</p>
+                                        <p class="text-purple founder-name name-size hannah-name-size">Hannah Gardner</p>
                                         <p class="founder">Founder</p>
                                     </div>
                                 </div>
-                                <p><img src="./images/five-star.svg" class="five-stars" /></p>
+                                <img src="./images/five-star.svg" class="five-stars" />
                                 <img src="./images/views-n-co.webp" class="logos" />
                             </div>
                         
@@ -367,7 +386,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="feedback-container">
+                <div class="mosi-feedback-container">
                     <div class="feedback">
                         <div class="flex sm-block">
                             <div>
@@ -378,7 +397,7 @@
                                         <p class="founder">Founder</p>
                                     </div>
                                 </div>
-                                <p><img src="./images/five-star.svg" class="five-stars mosi-five-stars" /></p>
+                                <img src="./images/five-star.svg" class="five-stars mosi-five-stars" />
                                 <img src="./images/mosi.webp" class="logos" />
                             </div>
                         
@@ -394,50 +413,66 @@
                     </div>
                 </div>
             </div>
-    </section> -->
+    </section>
     
-    <!-- <section class="conclusion">
+    <section class="conclusion">
         <div class="header">
             <h1 class="heading text-center">WE HAVE GOT YOU SORTED</h1>
-            <p class="sub-text">Put your inventory on autopilot with Sumtracker and see the magic happen</p>
+                <p class="grey-text_1 sub-text">Put your inventory on autopilot with Sumtracker<span class="hide-sm"> and see the</span></p> 
+                <p class="grey-text_2 sub-text"><span class="hide-lg">and see the </span>magic happen</p>
+            
         </div>
-        <img src="./images/footer-cta-male-character-bg.svg" class="male-img" />
-        <button class="cta-btn mid-btn btn art-spiral-arrow-right">FREE 30-DAYS TRIAL</button>
-        <img src="./images/footer-cta-female-character-bg.svg" class="female-img" />
+        <img src="./images/footer-cta-male-character-bg.svg" class="male-img hide-sm" />
+        <img src="./images/footer-cta-female-character-bg.svg" class="female-img hide-sm" />
+        <div class="btn-container">
+            <button class="cta-btn mid-btn btn art-spiral-arrow-right">FREE 30-DAYS TRIAL</button>
+        </div>
     </section>
     
     <footer>
-        <div class="flex container">
+        <div class="flex container sm-block">
             <div class="wrapper">
                 <img src="./images/Logo-dark-bg.svg" />
-                <p>Take your store to it’s zenith with a one-stop inventory
-                    management system that enables you to sync across multiple channels,
-                    manage bundles, kits, purchase orders and more.</p>
-                <p class="top-margin">Privacy Policy  |  Terms of Use</p>
+                <p>
+                    <p>Take your store to it’s zenith with a one-stop</p>
+                     <p>inventor management system that enables you</p>
+                     <p>to sync across multiple channels, manage </p>
+                     <p>bundles, kits, purchase orders and more.</p>
+                </p>
+                <p class="top-margin hide-sm">Privacy Policy  |  Terms of Use</p>
+                <p class="hide-sm">2022 StarApps Software Pvt. Ltd. All Rights Reserved</p>
+            </div>
+
+            <div class="product-company-help flex sm-flex">
+
+               
+                    <div class="wrapper">
+                        <h3>Product</h3>
+                        <p class="free-trial-long-text">30 Day Free Trial</p>
+                        <p>Pricing</p>
+                        <p>Integrations</p>
+                        <p>Features</p>
+                    </div>
+
+                    <div class="flex sm-block">
+                        <div class="wrapper">
+                            <h3>Company</h3>
+                            <p>Blog</p>
+                            <p>Contact Us</p>
+                        </div>
+                    
+
+                        <div class="wrapper">
+                            <h3>Help</h3>
+                            <p>Help center</p>
+                        </div>
+                    </div>
+            </div>
+            <div class="visible-sm hide-lg ">
+                <p class="top-margin privacy-line1 text-center">Privacy Policy  |  Terms of Use</p>
                 <p>2022 StarApps Software Pvt. Ltd. All Rights Reserved</p>
             </div>
-
-            <div class="product-company-help flex">
-                <div class="wrapper">
-                    <h3>Product</h3>
-                    <p class="free-trial-long-text">30 Day Free Trial</p>
-                    <p>Pricing</p>
-                    <p>Integrations</p>
-                    <p>Features</p>
-                </div>
-
-                <div class="wrapper">
-                    <h3>Company</h3>
-                    <p>Blog</p>
-                    <p>Contact Us</p>
-                </div>
-
-                <div class="wrapper">
-                    <h3>Help</h3>
-                    <p>Help center</p>
-                </div>
-            </div>
         </div>
-    </footer> -->
+    </footer>
 </body>
 </html>   

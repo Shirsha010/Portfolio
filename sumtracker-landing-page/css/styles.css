@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 20px 0 0;
 }
@@ -111,9 +115,7 @@ body {
     color: black;
     font-size: 18px;
     margin-left: 15px;
-    margin-top: 20px;
-    position: relative;
-    top: 20px;
+    margin-top: 40px;
     font-weight: 600;
 }
 
@@ -122,16 +124,13 @@ body {
 }
 
 .hero .shopify {
-    position: relative;
-    top: 20px;
     margin-left: 40px;
 }
 
 .hero .capterra {
     width: 115px;
     height: 25px;
-    position: relative;
-    top: 45px;
+    margin-top: 25px;
     margin-left: 45px;
 }
 
@@ -141,16 +140,9 @@ body {
     margin-bottom: 5px;
 }
 
-.hero .star-img {
+/* .hero .star-img {
     width: 125px;
-    position: relative;
-    right: 4px;
-}
-
-.hero-img {
-    position: relative;
-    right: 20px;
-}
+} */
 
 .sm-hero-img {
     display: none;
@@ -186,8 +178,7 @@ body {
 }
 
 .logo-pos-down {
-    position: relative;
-    top: 10px;
+    
 }
 
 .integrations {
@@ -218,15 +209,14 @@ body {
 
 .founder-name {
     font-weight: bold;
-    position: relative;
-    left: 15px;
-    bottom: 10px;
+    margin: 10px 0 5px 15px;
 }
 
 .founder {
-    position: relative;
-    left: 15px;
-    bottom: 25px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    margin-top: 0;
+    font-size: 17px;
 }
 
 .testimonial .feedback {
@@ -244,15 +234,12 @@ body {
 }
 
 .testimonial .shopify {
-    position: relative;
-    top: 20px;
+    margin-top: 20px;
 }
 
 .testimonial .capterra {
     width: 115px;
     height: 25px;
-    position: relative;
-    top: 25px;
     margin-left: 35px
 }
 
@@ -303,7 +290,7 @@ body {
     content: ' ';
     position: absolute;
     top: -35px;
-    right: 30px;
+    right: -15px;
     background-image: url(../images/design-1.svg);
     background-repeat: no-repeat;
     width: 110px;
@@ -460,10 +447,18 @@ body {
     color: #80829c;
 }
 
+.push-right {
+    padding-left: 50px;
+}
+
+.push-left {
+    padding-right: 50px;
+}
+
 .how-it-works {
     padding-bottom: 50px;
+    padding-top: 100px;
     position: relative;
-    bottom: 100px;
 }
 
 .how-it-works .steps-number {
@@ -471,12 +466,11 @@ body {
     font-weight: bold;
     width: 90px;
     height: 90px;
+    padding-left: 50px;
     border-radius: 10px;
 }
 
 .how-it-works .steps-number-style {
-    position: relative;
-    left: 50px;
     color: #fbba45;
     font-size: 40px;
 }
@@ -491,12 +485,12 @@ body {
 
 .how-it-works .steps-btn {
     margin-top: 60px;
-    position: relative;
-    left: 40%;
+    margin-left: 40%;
 }
 
 .customers {
     padding-bottom: 70px;
+    padding-top: 100px;
 }
 
 .customers .logos {
@@ -542,8 +536,17 @@ body {
     margin-right: auto;
 }
 
+.views-co-feedback-container {
+    width: fit-content;
+}
+
+.mosi-feedback-container {
+    width: fit-content;
+    padding-left: 30px;
+}
+
 .testimonial-slider .feedback {
-    width: 40%;
+    width: 95%;
     padding: 50px 40px 20px;
     background-color: #f3f7ff;
     border-radius: 25px;
@@ -563,29 +566,44 @@ body {
     font-size: 18px;
 }
 
+.hannah-name-size {
+    width: 100%;
+}
+
+.testimonial-slider .founder-name {
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
 .testimonial-slider .reviews {
-    padding-left: 55px;
+    padding-left: 20px;
     font-size: 20px;
-    width: 45%;
-    position: relative;
-    bottom: 12px;
+    width: 70%;
 }
 
 .testimonial-slider .five-stars {
-    width: 60%;
-    position: relative;
-    bottom: 50px;
-    left: 75px;
+    width: 120px;
+    margin-left: 95px;
+}
+
+.testimonial-slider .founder {
+    padding-left: 35px;
+    margin-top: 5px;
+    font-size: 17px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
 }
 
 .mosi-five-stars {
-    padding-right: 100px;
+    
 }
 
 .testimonial-slider .logos {
     width: 160px;
-    position: relative;
-    bottom: 40px;
+    padding-bottom: 40px;
+    padding-left: 15px;
+    margin-top: 30px;
 }
 
 .conclusion {
@@ -595,11 +613,11 @@ body {
     margin-right: auto;
     overflow: hidden;
     height: 500px;
+    position: relative;
 }
 
 .conclusion .header {
-    position: relative;
-    top: 105px;
+    margin-top: 100px;
 }
 
 .conclusion .heading {
@@ -609,29 +627,30 @@ body {
 .conclusion .sub-text {
     text-align: center;
     width: 40%;
-    color: #50515f;
+    color: #38383e;
     font-size: 22px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .conclusion .male-img {
-    position: relative;
+    position: absolute;
     left: 20px;
-    bottom: 55px;
+    top: 110px;
 }
 
 .conclusion .female-img {
-    position: relative;
-    bottom: 170px;
-    left: 450px;
+    position: absolute;
+    top: 88px;
+    right: 30px;
 }
 
-.conclusion .btn {
-    position: relative;
-    left: 215px;
-    bottom: 540px;
+.conclusion .btn-container{
+    padding: 100px 0px 0px 570px;
 }
+
 
 footer {
     background-color: black;
@@ -647,8 +666,6 @@ footer .wrapper {
 
 .footer .product-company-help {
     padding-left: 50px;
-    position: relative;
-    bottom: 20px;
 }
 
 .top-margin {
@@ -670,7 +687,7 @@ footer .wrapper {
     background-image: url(../images/heading-underline.svg);
     background-repeat: no-repeat;
     position: absolute;
-    bottom: 4px;
+    bottom: 0;
     width: 100%;
     height: 10px;
     z-index:-1;
@@ -760,10 +777,11 @@ footer .wrapper {
 .art-spiral-arrow-left::before {
     content: ' ';
     background-image: url(../images/spiral-arrow-design.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     position: absolute;
-    bottom: -70px;
-    left: -75px;
+    bottom: -30px;
+    left: 565px;
     width: 100px;
     height: 95px;
     transform: rotate(240deg);
@@ -774,8 +792,8 @@ footer .wrapper {
     background-image: url(../images/spiral-arrow-design.svg);
     background-repeat: no-repeat;
     position: absolute;
-    bottom: -70px;
-    right: -75px;
+    bottom: 80px;
+    right: 475px;
     width: 100px;
     height: 95px;
     transform: scaleX(-1) rotate(245deg);
@@ -797,6 +815,7 @@ footer .wrapper {
     content: ' ';
     background-image: url(../images/testimonials-design-bg.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     width: 65px;
     height: 60px;
     position: absolute;
@@ -808,10 +827,10 @@ footer .wrapper {
     content: ' ';
     background-image: url(../images/how-it-works-line-bg.svg);
     background-repeat: no-repeat;
-    width: 69%;
-    height: 33px;
+    width: 70%;
+    height: 35px;
     position: absolute;
-    bottom: 342px;
+    bottom: 330px;
     left: 208px;
     background-size: cover;
     z-index: -1;
@@ -839,16 +858,74 @@ footer .wrapper {
     .visible-sm {
         display: inline-block;
     }
+    .text-center-sm {
+        text-align: center;
+    }
 
-    .nav-bar {
+    .img-center {
+       margin-left: auto !important;
+       margin-right: auto !important;
+       display: block;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .nav-options {
         display: none;
+    }
+
+    .nav-options-sm {
+        padding-top: 50px;
+    }
+
+    .nav-options-sm a{
+        margin-left: 50px;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+        color: black;
+        padding-left: 50px;
+        padding-bottom: 20px;
+    }
+
+    .nav-sm-btn{
+        padding-left: 25px;
+    }
+
+    .nav-sm-btn .sm-btn {
+        padding: 13px 50px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .nav-bar img {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .menu_bar {
+        height: 20px;
+        padding-left: 60%;
+        margin-top: 20px !important;
+    }
+
+    .art-yellow-underline::before {
+        bottom: -3px;
+        width: 80%;
+        height: 10px;
+        z-index: -1;
+        background-size: contain;
     }
 
     .hero {
         display: block;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+        padding: 30px 0 0 20px;
+    }
+
+    .hero .main-heading {
+        font-size: 35px;
     }
 
     .hero .content {
@@ -869,6 +946,10 @@ footer .wrapper {
         display: inline-block;
     }
 
+    .sm-flex {
+        display: flex;
+    }
+
     .sm-block {
         display: block;
     }
@@ -877,26 +958,16 @@ footer .wrapper {
         width: 55px;
         margin-left: 100px;
         margin-top: 15px;
-        position: relative;
-        right: 5px;
     }
 
     .watch-video {
-        margin-left: 65px;
-        margin-top: 10px;
+        margin-top: 30px;
         font-size: 17px;
-        position: relative;
-        top: -25px;
-        left: -60px;
         display: inline-block;
     }
 
     .hero .plans-text {
-        margin-top: 40px;
-        margin-bottom: 20px;
-        margin-left: 80px;
-        position: relative;
-        bottom: 50px;
+        margin-bottom: 50px;
         font-size: 20px;
     }
 
@@ -923,45 +994,41 @@ footer .wrapper {
         margin-top: 40px;
     }
 
+    .hero .rating {
+    
+    }
+
     .hero .capterra {
         width: 110px;
         height: 25px;
-        position: relative;
-        top: 40px;
-        right: 115px;
     }
 
     .hero .shopify {
-        position: relative;
-        top: 15px;
-        right: 95px;
+        margin-left: 70px;
+        margin-top: 20px;
         width: 100px;
     }
 
     .hero .five-stars {
         width: 130px;
-        position: relative;
-        left: 125px;
-        bottom: 55px;
+        
     }
 
     .hero .star-text {
         font-weight: bold;
         font-size: 20px;
         margin-bottom: 5px;
-        position: relative;
-        bottom: 60px;
-        left: 140px;
+        
     }
 
     .heading {
-        font-size: 31px;
+        font-size: 32px;
         position: relative;
         margin-left: 15px;
     }
 
     .integrations {
-        padding: 120px 0px 100px;
+        padding: 100px 35px;
     }
 
     .yellow-bar::before {
@@ -973,20 +1040,16 @@ footer .wrapper {
     }
     
     .shine-tilt::after {
-        right: -30px;
+        right: -15px;
     }
 
     .logo-container {
         display: flex;
         padding: 25px;
-        position: relative;
-        right: 10px;
     }
 
     .logo-lg {
-        height: 45px;
-        position: relative;
-        right: 20px;
+        height: 40px;
     }
 
     .logo-sm {
@@ -994,13 +1057,11 @@ footer .wrapper {
     }
 
     .logo-pos-down {
-        position: relative;
-        top: 0;
+    
     }
 
     .integrations .logo-mid {
-        position: relative;
-        height: 45px;
+    
     }
 
     .right-gap {
@@ -1008,33 +1069,35 @@ footer .wrapper {
     }
 
     .etsy {
-        position: relative;
-        left: 20px;
-        margin-right: 80px;
+        margin-right: 45px;
         width: 90px;
     }
 
     .ebay {
-        width: 105px;
-        position: relative;
-        right: 20px;
+        width: 100px;
     }
 
     .testimonial {
         width: 100%;
-        margin-right: auto;
-        margin-left: auto;
-        padding: 0 25px 100px;
+        padding: 0 20px 100px !important;
     }
 
     .testimonial .wrapper {
+        width: 100%;
         background-color: #f3f7ff;
-        padding: 0px 55px 50px;
+        padding: 0px 20px !important;
         border-radius: 20px;
     }
 
+    .founder-name {
+        left: 0px;
+        bottom: 0px;
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
     .info {
-        width: 35%;
+        width: 100%;
         font-size: 20px;
         padding-top: 45px;
         text-align: center;
@@ -1043,44 +1106,73 @@ footer .wrapper {
     .logo-dp {
         width: 120px;
         height: 120px;
-        margin-left: 100px;
-    }
-    
-    .name-founder {
-        position: relative;
-        left: 85px;
     }
 
+
     .testimonial .ozdingo {
-        width: 225px;
-        height: 55px;
+        width: 200px;
+        height: 50px;
         position: relative;
-        left: 40px;
         bottom: 30px;
+        display: block;
+        margin: auto;
+        right: 0;
+    }
+
+    .testimonial .star-img {
+        width: 125px;
+        display: block;
+        margin: auto;
+    }
+
+    .testimonial .star-text {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .testimonial .logo-container {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        display: inline-block;
+        padding-top: 0;
     }
 
     .testimonial .feedback {
-        width: 108%;
-        font-size: 22px;
-        padding: 0;
+        width: 100%;
+        font-size: 20px;
+        padding: 0 20px !important;
         border-right: 0;
         border-bottom: 2px solid #cadcff;
     }
 
+    .testimonial .shopify {
+        display: block;
+        margin: 20px auto;
+        position: relative;
+        top: 0;
+
+    }
+
     .testimonial .capterra {
         position: relative;
-        top: 35px;
+        top: 0;
+        right: 0;
         margin-left: 0;
+        width: 135px;
+        height: 30px;
     }
 
     .testimonial .rating {
-        width: 35%;
+        width: 100%;
         padding-top: 20px;
+        text-align: center;
+        padding-left: 0;
+
     }
 
     .solution {
         padding-top: 50px;
-        
         background-image: url(./../images/light-yello-bg-right-2.svg);
         background-repeat: no-repeat;
         background-position: center;
@@ -1137,15 +1229,20 @@ footer .wrapper {
 
     .how-it-works {
         padding-top: 100px;
+        padding-bottom: 130px;
     }
 
     .steps-wrapper {
-        padding-left: 100px;
+        padding-left: 120px;
         
     }
 
+    .how-it-works .container {
+        width: 100%;
+    }
+
     .how-it-works .grey-text {
-        font-size: 25px;
+        font-size: 20px;
     }
 
     .how-it-works .shift-right {
@@ -1153,108 +1250,249 @@ footer .wrapper {
     }
 
     .how-it-works .sub-heading {
-        font-size: 30px;
+        font-size: 22px;
+    }
+
+    .how-it-works .steps-sub-content {
+        width: 100%;
     }
 
     .how-it-works .steps-number-style {
-        position: relative;
-        left: 60px;
-        font-size: 60px;
+        
+        font-size: 40px;
     }
 
     .how-it-works .steps-number {
-        width: 120px;
-        height: 120px;
+        width: 75px;
+        height: 75px;
+        padding-left: 40px;
+        border-radius: 5px;
     }
 
     .how-it-works .mid-btn {
-            font-size: 25px;
-            padding: 25px 55px;
-            border-radius: 60px;
+            font-size: 18px;
+            padding: 18px 45px;
+            border-radius: 30px;
     }
 
     .how-it-works .steps-btn {
-        position: relative;
-        left: 20%;
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+
+    .art-spiral-arrow-left::before {
+        left: 45px;
+        bottom: 100px;  
+        width: 75px;
+        height: 60px;
     }
 
     .art-dot-slash-curve-right::after {
-        right: 0;
+        right: 20px;
     }
     
     .how-it-works .text-container {
         width: 60%;
     }
 
+    .how-it-works .yellow-bar::before {
+        left: 190px;
+    }
+
+    .customers {
+        padding-top: 0;
+    }
+
     .customers .logos {
         display: inline-block;
+        padding-left: 40px;
+        padding-top: 20px;
     }
 
     .customers .logos img {
-        height: 65px;
-        margin: 0 0 50px 80px;
+        height: 45px;
+        margin: 0 0 35px 80px;
     }
 
     .smartivity {
-        height: 75px !important;
+        height: 60px !important;
     }
 
     .huracan {
-        height: 80px !important;
+        height: 65px !important;
         position: relative;
         right: 70px;
     }
 
     .shine-parallel::after {
-        right: -40px;
+        right: 15px;
+        bottom: 30px;
+    }
+
+    .testimonial-slider {
+        padding: 50px 45px 100px;
     }
 
     .testimonial-slider .feedback-container {
-        padding: 50px;
+        padding: 0 45px 100px;
     }
 
     .testimonial-slider .yellow-bar::before {
-        left: 180px;
+        left: 130px;
     }
 
     .testimonial-slider .color-sentence {
         font-size: 22px;
         width: 85%;
+        padding-bottom: 0;
+    }
+
+    .views-co-feedback-container {
+        padding: 50px 0;
     }
 
     .testimonial-slider .feedback {
-        width: 80%;
+        width: 100%;
+        padding: 50px 30px 20px;
     }
 
     .testimonial-slider .logo-dp {
         width: 65px;
         height: 65px;
+        margin-left: 40%;
+    }
+
+    .testimonial-slider .founder-name {
+        padding-left: 60px;
+        margin-bottom: 0;
+    }
+
+    .testimonial-slider .founder {
+        font-size: 18px;
+        margin: 0;
+        padding-left: 100px;
+        padding-bottom: 0;
     }
 
     .testimonial-slider .five-stars {
-        width: 60%;
-        position: relative;
-        bottom: 30px;
-        left: 40px;
+        width: 50%;
+        bottom: 0;
+        left: 0;
+        margin: 10px 0px 25px 65px;
     }
 
     .founder {
         font-size: 18px;
+        margin-top: 0;
+    }
+
+    .testimonial-slider .logos {
+        width: 140px;
+        padding: 0;
+        margin-left: 60px;
     }
 
     .testimonial-slider .reviews {
-        width: 85%;
-        position: relative;
-        bottom: 30px;
+        width: 100%;
+        bottom: 0;
+        padding-left: 0;
     }
 
     .testimonial-slider .wrapper {
         display: inline-block;
+        width: 100%;
     }
+
+    .mosi-feedback-container {
+        padding-left: 0;
+    }
+
+    .mosi-feedback-container .five-stars {
+        width: 160px;
+        bottom: 0;
+        left: 0;
+        margin: 10px 0px 10px 70px;
+    }
+
+    .mosi-feedback-container .founder-name {
+        padding-left: 100px;
+        margin-bottom: 5px;
+    }
+
+    .mosi-feedback-container .founder {
+        font-size: 18px;
+        margin: 0;
+        padding-left: 110px;
+        padding-bottom: 0;
+    }
+
+
+
+
 
     .art-s-curve::after {
-        left: 0px;
+        left: -50px;
+        bottom: 30px;
+        width: 55px;
+        height: 50px;
     }
 
-            
+    .conclusion {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .conclusion .header {
+        top: 0;
+        padding-top: 50px;
+    }
+
+    .conclusion .heading {
+       font-size: 25px;
+       margin-left: 0;
+    }
+
+    .conclusion .sub-text {
+        width: 100%;
+    }
+
+    .conclusion .grey-text_1 {
+        margin-bottom: 0;
+        padding-left: 0;
+        color: #38383e;
+        font-size: 20px;
+    }
+
+    .conclusion .grey-text_2 {
+        margin-top: 0;
+        padding-left: 15px;
+        color: #38383e;
+        font-size: 20px;
+    }
+
+    .conclusion .btn {
+        left: 0;
+        bottom: 0;
+    }
+
+    .conclusion .btn-container {
+        padding: 40px 70px 90px 85px;
+    }
+
+    .conclusion .art-spiral-arrow-right::after {
+        display: none;
+    }
+
+    footer {
+        padding: 80px 30px 40px;
+    }
+
+    footer .wrapper {
+        width: 100%;
+    }
+
+    .privacy-line1{
+        font-size: 18px;
+    }
+        
 }
