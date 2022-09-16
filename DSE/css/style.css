@@ -1,0 +1,723 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Black.ttf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-BlackItalic.ttf);
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-ExtraBoldItalic.ttf);
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(../fonts/Poppins-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;  
+    position: relative; 
+    background-color: #f9f9f9;
+    font-family: 'Poppins';
+}
+
+.container {
+    max-width: 1350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.nav-bar{
+    position: absolute;
+    z-index: 2;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav-options-wrapper {
+    color: white;
+    font-size: 18px;
+    justify-content: space-between;
+}
+
+.nav-options {
+    padding-right: 50px;
+
+}
+
+.hero {
+    background-image: url(./../assets/images/banner-bg.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    color: white;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 200px;
+    z-index: 1;
+}
+
+.hero-content {
+   
+    text-align: left;
+}
+
+.hero .heading{
+    text-align: left;
+    max-width: 800px;
+    font-size: 48px;
+    padding-bottom: 40px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+.logo-mid {
+    width: 160px;
+}
+
+.btn-blue {
+    background-color: #5dc1ea;
+    border-radius: 50px;
+    padding: 25px 45px;
+    border: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.blog-btn {
+    padding: 20px 35px;
+    font-size: 15px;
+}
+
+.hero-feedback {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.12);
+    max-width: 500px;
+    margin-top: 80px;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.feeback-line-bold {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.collaborations {
+    height: 300px;
+}
+
+.outside-companies-box {
+    position: relative;
+    z-index: 1;
+}
+
+.companies-box {
+    height: max-content;
+    border-radius: 30px;
+    position: absolute;
+    left: 100px;
+    top: -85px;
+    background-color: white;
+    z-index: 2;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 100px;
+}
+
+.collaborations .heading {
+    margin: 50px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.collaborations .logo {
+    padding-right: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.collaborations .logo-container {
+   padding-bottom: 70px;
+}
+
+.services {
+   padding: 50px 0;
+}
+
+.services .bold-text {
+    font-weight: 600;
+}
+
+.services .heading {
+    font-size: 33px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 150px;
+    line-height: 2;
+}
+
+.services .sub-text {
+    font-size: 16px;
+    color: #4e4a4a;
+    text-align: center;
+    padding: 0px 150px 30px 150px;
+    line-height: 1.5;
+}
+
+.service-cards-heading {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.service-cards {
+    background-color: white;
+    border-radius: 30px;
+    max-width: 450px;
+    height: 340px;
+    padding: 35px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.service-cards .content {
+    margin-top: 0;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.services .icons {
+    background-color: #5dc1ea;
+    padding: 16px;
+    border-radius: 50px;
+    width: 55px;
+    height: 55px;
+}
+
+.service-cards-container {
+    padding: 20px 15px;
+}
+
+.services .btn-wrapper {
+    margin: 30px 0 50px 550px;
+}
+
+.testimonials {
+    background-color: #1b1734;
+    background-image: url(./../assets/images/art/testmonial-slider-bg.png);
+    position: relative;
+    color: white;
+    height: 650px;
+}
+
+.testimonials .translucent-bg {
+    background-color: rgba(40, 36, 71, 0.85);
+    height: 650px;
+}
+
+.testimonials .icons {
+    padding: 10px;
+    width: 35px;
+}
+
+.testimonials .icon-wrapper {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 40px;
+}
+
+.testimonials .heading {
+    font-size: 35px;
+    text-align: center;
+    padding: 70px 0 0 0;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.testimonials .sub-text {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.testimonials .feedback-card {
+    padding: 25px 25px 30px 40px;
+    background-color: white;
+    max-width: 640px;
+    margin-top: 30px;
+    border-radius: 30px;
+    font-size: 16px;
+    color: black;
+}
+
+.testimonials .avatar {
+    margin-right: 20px;
+    border-radius: 50px;
+    width: 80px;
+}
+
+.feedback-wrapper1 {
+    position: absolute;
+    left: 100px;
+    bottom: -60px;
+}
+
+.feedback-wrapper2 {
+    position: absolute;
+    right: 100px;
+    bottom: -60px;
+}
+
+.feedback-card .icons-container {
+    display: flex;
+}
+
+.feedback-card .icon {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.feedback-card .customer-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.feedback-card .customer-details {
+    font-size: 12px;
+    color: #b6b1b1;
+    margin-top: 10px;
+}
+
+.feedback-card .content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.pricing .heading {
+    margin: 0;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 200px;
+    font-weight: 600;
+}
+
+.pricing .sub-text {
+    font-size: 17px;
+    color: #4e4a4a;
+    padding: 20px 250px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.price-cards {
+    border-radius: 30px;
+    height: fit-content;
+    padding: 30px;
+    max-width: 420px;
+    background-color: white;
+}
+
+.price-digits {
+    color: #5dc1ea;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.perks {
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.perks-wrapper {
+    padding-top: 30px;
+}
+
+.text-blue{
+    color: #5dc1ea;
+}
+
+.text-navyblue{
+    color: #2308d0;
+}
+
+.price-cards-heading {
+    font-size: 30px;
+}
+
+.price-cards-subtext {
+    color: #7e7979;
+    font-size: 19px;
+    line-height: 1.3;
+}
+
+.custom-plan {
+    padding: 100px 190px;
+}
+
+.custom-plan .translucent-bg {
+    background-color: rgba(40, 36, 71, 0.85);
+}
+
+.custom-plan-box {
+    background-color: #1b1734;
+    background-image: url(./../assets/images/art/custom-plan-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 35px 55px 50px;
+    color: white;
+}
+
+.custom-plan .heading {
+    font-size: 60px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.custom-plan .head-text {
+    font-size: 24px;
+    color: #5dc1ea;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.custom-plan .sub-text {
+    font-size: 16px;
+    margin-top: 0;
+    max-width: 550px;
+    line-height: 1.6;
+}
+
+.custom-plan-description {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.custom-plan-btn {
+    background-color: #5dc1ea;
+    border-radius: 50px;
+    padding: 25px 30px 25px 100px;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.custom-plan .btn-wrapper {
+    margin: 140px 0 0 170px;
+}
+
+.arrow-btn {
+    padding-left: 50px;
+}
+
+.contact-me {
+    background-color: #1b1734;
+    background-image: url(./../assets/images/art/contact-me-bg.png);
+    padding: 200px 100px 200px 150px;
+    color: white;
+    position: relative;
+}
+
+.contact-me .heading {
+  font-size: 60px;
+}
+
+.contact-me .sub-text {
+    font-size: 23px;
+    max-width: 520px;
+    line-height: 1.5;
+}
+
+.contact-box {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 20px 25px 10px;
+    position: absolute;
+    top: 120px;
+    right: 90px;
+}
+
+.text-box-heading {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.text-box {
+    width: 580px;
+    height: 60px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #b6b1b1;
+}
+
+.project-description-box {
+    height: auto;
+    font-family: 'Poppins';
+}
+
+.contact-me-btn {
+    padding: 25px 55px;
+    font-size: 18px;
+}
+
+.contact-me .btn-wrapper{
+    margin-top: 30px;
+}
+
+.why-me {
+    padding: 250px 100px 100px 40px;
+}
+
+.why-me .container {
+    padding-left: 40px;
+}
+
+.why-me .heading {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.why-me-color-bg-img {
+    position: relative;
+}
+
+.why-me-photo-wrapper {
+    background-color: #5dc1ea;
+    border-radius: 30px;
+    padding: 20px;
+    height: 870px;
+    width: 520px;
+}
+
+.why-me-photo {
+    border-radius: 30px;
+    position: absolute;
+    top: -35px;
+    left: 30px;
+}
+
+.why-me-content {
+    border-radius: 0 30px 30px 0px;
+    background-color: white;
+    padding: 50px 30px 30px 100px;
+    height: fit-content;
+}
+
+.why-me-paragraphs {
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.why-me .icons-wrapper {
+    padding: 20px 0;
+}
+
+.why-me .icons {
+    padding-right: 40px;
+}
+
+.faq {
+    padding: 100px 70px;
+}
+
+.faq .heading{
+    font-size: 38px;
+    font-weight: 500;
+    padding-left: 60px;
+}
+
+.question-wrapper {
+    background-color: white;
+    margin: 50px;
+    padding: 20px 50px;
+    border-radius: 30px;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.answer {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 2;
+}
+
+footer {
+    background-color: #030328f7;
+    color: white;
+    
+}
+
+.copyright {
+    background-color: #0a071d;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer-details {
+    padding: 100px;
+}
+
+.footer-details .logo-subtext {
+    max-width: 330px;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+.footer-details .logo {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.footer-details .icons {
+    width: 20px;
+    margin-right: 15px;
+}
+
+.footer-details .sub-text {
+    margin-left: 30px;
+}
+
+.social-media-logo-wrapper {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.social-media-logo {
+    background-color: #5dc1ea;
+    border-radius: 50px;
+    padding: 10px;
+    width: 45px;
+    height: 45px;
+}
+
+.facebook {
+    padding: 10px 16px;
+}
+
+.linkedin {
+    padding: 0px 13px;
+}
+
+.insta {
+    width: 50px;
+}
